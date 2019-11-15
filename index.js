@@ -2,7 +2,7 @@ const alexaSDK = require('alexa-sdk');
 const awsSDK = require('aws-sdk');
 const promisify = require('es6-promisify');
 
-const appId = 'amzn1.ask.skill.ff6fceb9-73c2-4871-8178-009f1d62b64a';
+const appId = 'amzn1.ask.skill.ff6fceb9-73c2-4871-8178-XXXXX';
 const recipesTable = 'Recipes';
 const docClient = new awsSDK.DynamoDB.DocumentClient();
 
